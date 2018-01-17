@@ -48,3 +48,11 @@ body {
 .light-text{
   color: rgb(147, 148, 148);
 }
+
+.title{
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.description{
+  font-family: 'Abel', sans-serif;
+}

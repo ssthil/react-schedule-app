@@ -5,8 +5,8 @@ class Header extends Component {
     render() {
         return(
             <div className="jumbotron">
-                <h3 className="display-3">{this.props.title}</h3>
-                <p className="lead">{this.props.description}</p>
+                <h3 className="display-3 title">{this.props.title}</h3>
+                <p className="lead description">{this.props.description}</p>
             </div>
         )
     }
