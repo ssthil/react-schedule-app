@@ -10,7 +10,7 @@
       "opponent": "Agni",
       "color":"#b3c2d2",
       "result":"won",
-      "wonColor":"#6bec0c"
+      "resultColor":"#6bec0c"
     },
     {
       "gameCount":2,
@@ -23,7 +23,7 @@
       "opponent": "Stallions",
       "color":"#dcbae4",
       "result":"won",
-      "wonColor":"#6bec0c" 
+      "resultColor":"#6bec0c" 
     },
     {
       "gameCount":3,
@@ -36,7 +36,7 @@
       "opponent": "Sloggers",
       "color":"#a8dcd5",
       "result":"won",
-      "wonColor":"#6bec0c",
+      "resultColor":"#6bec0c",
       "inprogress": "no"
     },
     {
@@ -50,7 +50,7 @@
       "opponent": "Powerhitters",
       "color":"#c4da98",
       "result":"won" ,
-      "wonColor":"#6bec0c"
+      "resultColor":"#6bec0c"
     },
     {
       "gameCount":5,
@@ -63,7 +63,7 @@
       "opponent": "Jaguars",
       "color":"#",
       "result":"won",
-      "wonColor":"#6bec0c"
+      "resultColor":"#6bec0c"
     },
     {
       "gameCount":6,
@@ -76,7 +76,7 @@
       "opponent": "Golden Eagles",
       "color":"#f9a3ac",
       "result":"won",
-      "wonColor":"#6bec0c"
+      "resultColor":"#6bec0c"
     },
     {
       "gameCount":7,
@@ -89,7 +89,7 @@
       "opponent": "Rising Stars",
       "color":"#bad3e4",
       "result":"tied",
-      "wonColor":"#6bec0c"
+      "resultColor":"#6bec0c"
     },
     {
       "gameCount":8,
@@ -102,7 +102,7 @@
       "opponent": "City Champs",
       "color":"#c4da98",
       "result":"lose",
-      "wonColor":"#6bec0c"
+      "resultColor":"#bd1e02"
     },
     {
       "gameCount":9,
@@ -115,7 +115,7 @@
       "opponent": "Passengers",
       "color":"#ccbae4",
       "result":"won" ,
-      "wonColor":"#6bec0c"
+      "resultColor":"#6bec0c"
     },
     {
       "gameCount":10,
@@ -128,7 +128,7 @@
       "opponent": "Lightning hawks",
       "color":"#f9a3ac" ,
       "result":"won",
-      "wonColor":"#6bec0c"
+      "resultColor":"#6bec0c"
     },
     {
       "gameCount":11,
@@ -141,7 +141,7 @@
       "opponent": "Cool Kings",
       "color":"#b3c2d2",
       "result":"none" ,
-      "wonColor":"#6bec0c"
+      "resultColor":"#6bec0c"
     },
     {
       "gameCount":12,
@@ -154,7 +154,7 @@
       "opponent": "Kerry packers",
       "color":"#ff751880",
       "result":"none",
-      "wonColor":"#6bec0c"
+      "resultColor":"#6bec0c"
     },
     {
       "gameCount":13,
@@ -167,6 +167,6 @@
       "opponent": "Indeco",
       "color":"#a8dcd5",
       "result":"none",
-      "wonColor":"#6bec0c"
+      "resultColor":"#6bec0c"
     }
   ]
