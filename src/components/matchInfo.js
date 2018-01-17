@@ -10,7 +10,7 @@ import RightSection from './rightSection';
             
                 {
                     this.props.info.map((match, i) => 
-                        <div className="col-lg-4 col-sm-12 col-sm-12" key={i}>
+                        <div className="col-lg-6 col-sm-12 col-sm-12" key={i}>
                             <div className="list-group">
                                 <a href="" className='list-group-item list-group-item-action' style={{borderTopColor: match.color}} >
                                     <div className="justify-content-between">
