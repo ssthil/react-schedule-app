@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.jumbotron {
+  padding: 1.2rem 1rem;
+  text-align: center;
+  background-color: #272636;
+  color: #fff;
+}
+.left-content {
+  float: left;
+  padding-right: 20px;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.list-group {
+  margin-bottom: 10px;
+}
+
+.list-group-item{
+  border-top: 5px solid rgb(156, 158, 175);
+}
+.align-right{
+  float: right;
+  font-size: 13px;
+}
+.span-small{
+  font-size: 12px;
+}
+.date{
+  color:#0d56c3;
+}
+
+.pitch{
+  color:rgb(190, 57, 5);
+  font-size: 15px;
+}
+
+.umpire{
+  font-size: 13px;
+}
+
+.light-text{
+  color: rgb(147, 148, 148);
+}

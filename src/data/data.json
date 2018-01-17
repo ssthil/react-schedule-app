@@ -1,0 +1,145 @@
+[
+    {
+      "gameCount":1,
+      "day": "Saturday",
+      "date": "27-01-2018",
+      "time": "12:00",
+      "pitch":2,
+      "umpire":"RB Royals & Sandstrom",
+      "group":"B",
+      "opponent": "Agni",
+      "color":"#b3c2d2"
+    },
+    {
+      "gameCount":2,
+      "day": "Saturday",
+      "date": "03-02-2018",
+      "time": "7:30",
+      "pitch":2,
+      "umpire":"FCC",
+      "group": "B",
+      "opponent": "Stallions",
+      "color":"#f9a3ac"
+    },
+    {
+      "gameCount":3,
+      "day": "Saturday",
+      "date": "10-02-2018",
+      "time": "2:15",
+      "pitch":2,
+      "umpire":"Thunders",
+      "group":"B",
+      "opponent": "Sloggers",
+      "color":"#a8dcd5"
+    },
+    {
+      "gameCount":4,
+      "day": "Saturday",
+      "date": "24-02-2018",
+      "time": "7:30",
+      "pitch":2,
+      "umpire":"Kala",
+      "group":"B",
+      "opponent": "Powerhitters",
+      "color":"#c4da98" 
+    },
+    {
+      "gameCount":5,
+      "day": "Saturday",
+      "date": "03-03-2018",
+      "time": "7:30",
+      "pitch":2,
+      "umpire":"CricSpyders",
+      "group":"B",
+      "opponent": "Jaguars",
+      "color":"#" 
+    },
+    {
+      "gameCount":6,
+      "day": "Saturday",
+      "date": "10-03-2018",
+      "time": "9:45",
+      "pitch":2,
+      "umpire":"Cricforce",
+      "group":"B",
+      "opponent": "Golden Eagles",
+      "color":"#dcbae4"
+    },
+    {
+      "gameCount":7,
+      "day": "Saturday",
+      "date": "17-03-2018",
+      "time": "12:00",
+      "pitch":2,
+      "umpire":"Avengers & RB Royals",
+      "group":"B",
+      "opponent": "Rising Stars",
+      "color":"#bad3e4" 
+    },
+    {
+      "gameCount":8,
+      "day": "Saturday",
+      "date": "24-03-2018",
+      "time": "12:00",
+      "pitch":1,
+      "umpire":"Avengers & FCC ",
+      "group":"B",
+      "opponent": "Kerry packers",
+      "color":"#ff751880" 
+    },
+    {
+      "gameCount":9,
+      "day": "Saturday",
+      "date": "07-04-2018",
+      "time": "7:30",
+      "pitch":1,
+      "umpire":"RB Royals",
+      "group":"B",
+      "opponent": "City Champs",
+      "color":"#c4da98" 
+    },
+    {
+      "gameCount":10,
+      "day": "Saturday",
+      "date": "14-04-2018",
+      "time": "4:30",
+      "pitch":1,
+      "umpire":"Team one",
+      "group":"B",
+      "opponent": "Passengers",
+      "color":"#ccbae4" 
+    },
+    {
+      "gameCount":11,
+      "day": "Saturday",
+      "date": "21-04-2018",
+      "time": "4:30",
+      "pitch":1,
+      "umpire":"Gillies",
+      "group":"B",
+      "opponent": "Lightning hawks",
+      "color":"#f9a3ac" 
+    },
+    {
+      "gameCount":12,
+      "day": "Saturday",
+      "date": "28-04-2018",
+      "time": "7:30",
+      "pitch":1,
+      "umpire":"Sandstrom",
+      "group":"B",
+      "opponent": "Cool Kings",
+      "color":"#b3c2d2" 
+    },
+    {
+      "gameCount":13,
+      "day": "Saturday",
+      "date": "02-06-2018",
+      "time": "7:30",
+      "pitch":2,
+      "umpire":"Kala",
+      "group":"B",
+      "opponent": "Indeco",
+      "color":"#a8dcd5" 
+    }
+  ]
