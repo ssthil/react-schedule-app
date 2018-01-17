@@ -55,4 +55,16 @@ body {
 
 .description{
   font-family: 'Abel', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.logoBg{
+  background: #fff;
+  padding: 16px 10px 5px;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  display: inline-block;
+  border: 5px solid rgb(73, 123, 189);
 }
