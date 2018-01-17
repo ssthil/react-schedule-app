@@ -9,7 +9,7 @@ class App extends Component {
     super(props);
     this.state = {
       title : 'TON',
-      description:"Here you go for our upcoming matches with schedules.",
+      description:"Here you go, check out the complete match schedules - Jan 2018",
       matches : []
       }
   }
