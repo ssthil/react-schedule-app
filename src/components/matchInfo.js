@@ -2,11 +2,17 @@ import React, { Component } from 'react';
 import LeftSection from './leftSection';
 import RightSection from './rightSection';
 
+const styles = {
+    marginFromList:{
+        marginTop:15
+    }
+}
+
  class MatchInfo extends Component{
      
     render() {
         return(
-            <div className="row">
+            <div className="row" style={styles.marginFromList}>
             
                 {
                     this.props.info.map((match, i) => 

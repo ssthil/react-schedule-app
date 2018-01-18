@@ -1,0 +1,110 @@
+[
+    {
+      "gameCount":1,
+      "day": "Saturday",
+      "date": "12-05-2018",
+      "time": "12:00",
+      "pitch":2,
+      "umpire":"TON + Cool Kings",
+      "group":"A",
+      "team1":"RB Royals",
+      "team2": "Cricforce",
+      "color":"#a8dcd5" 
+    },
+    {
+      "gameCount":2,
+      "day": "Saturday",
+      "date": "12-05-2018",
+      "time": "2:15",
+      "pitch":2,
+      "umpire":"TON",
+      "group":"A",
+      "team1":"Gillies",
+      "team2": "Kala",
+      "color":"#a8dcd5" 
+    },
+    {
+      "gameCount":3,
+      "day": "Saturday",
+      "date": "12-05-2018",
+      "time": "4:30",
+      "pitch":2,
+      "umpire":"TON",
+      "group":"A",
+      "team1":"Thunders",
+      "team2": "The Phoenix",
+      "color":"#a8dcd5"
+    },
+    {
+      "gameCount":4,
+      "day": "Saturday",
+      "date": "19-05-2018",
+      "time": "7:30",
+      "pitch":2,
+      "umpire":"TON",
+      "group":"A",
+      "team1":"CricSpyders",
+      "team2": "Team One",
+      "color":"#a8dcd5"
+    },
+    {
+      "gameCount":5,
+      "day": "Saturday",
+      "date": "19-05-2018",
+      "time": "9:45",
+      "pitch":2,
+      "umpire":"TON",
+      "group":"A",
+      "team1":"Avengers",
+      "team2": "CricStarts",
+      "color":"#a8dcd5"
+    },
+    {
+      "gameCount":6,
+      "day": "Saturday",
+      "date": "19-05-2018",
+      "time": "12:00",
+      "pitch":2,
+      "umpire":"TON + Jaguars",
+      "group":"A",
+      "team1":"FCC",
+      "team2": "Thunders",
+      "color":"#a8dcd5"
+    },
+    {
+      "gameCount":7,
+      "day": "Saturday",
+      "date": "26-05-2018",
+      "time": "1:00",
+      "pitch":1,
+      "umpire":"TON",
+      "group":"A",
+      "team1":"Cricforce",
+      "team2": "Kala",
+      "color":"#a8dcd5"
+    },
+    {
+      "gameCount":8,
+      "day": "Saturday",
+      "date": "26-05-2018",
+      "time": "2:50",
+      "pitch":1,
+      "umpire":"TON",
+      "group":"A",
+      "team1":"FCC",
+      "team2": "Avengers",
+      "color":"#a8dcd5"
+    },
+    {
+      "gameCount":9,
+      "day": "Saturday",
+      "date": "26-05-2018",
+      "time": "4:40",
+      "pitch":1,
+      "umpire":"TON",
+      "group":"A",
+      "team1":"RB Royals",
+      "team2": "Sandstrom",
+      "color":"#a8dcd5"
+    }
+  ]

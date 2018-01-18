@@ -59,7 +59,7 @@ body {
   margin-bottom: 2px;
 }
 
-.logoBg{
+.logo-bg{
   background: #fff;
   padding: 16px 10px 5px;
   border-radius: 50%;
@@ -67,4 +67,8 @@ body {
   height: 125px;
   display: inline-block;
   border: 5px solid rgb(73, 123, 189);
+}
+
+.container > div ~ div {
+  background-color: #3b487b;
 }

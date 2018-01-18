@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import Header from './components/header';
-import MatchInfo from './components/matchInfo';
-import Info from './data/data.json';
+import MatchInfo from './data/matchInfoData.json';
+import UmpireDutyInfo from './data/umpireDutyData.json';
+
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import TabSection from './components/tabs';
 
 class App extends Component {
 
@@ -10,13 +13,15 @@ class App extends Component {
     this.state = {
       title : 'TON',
       description:"Here you go, check out the complete match schedules - Jan 2018",
-      matches : []
+      matches : [],
+      umpireDuty:[]
       }
   }
 
   componentDidMount() {
     this.setState({
-      matches: Info
+      matches: MatchInfo,
+      umpireDuty: UmpireDutyInfo
     })
   }
   
@@ -25,7 +30,10 @@ class App extends Component {
       <div className="App">
         <Header title={this.state.title} description={this.state.description}/>
         <div className="container">
-          <MatchInfo info={this.state.matches}/>
+          <MuiThemeProvider>
+              <TabSection info={this.state.matches} umpireDutyInfo = {this.state.umpireDuty}/>
+          </MuiThemeProvider>
+          
         </div>
       </div>
     );
