@@ -9,7 +9,7 @@
       "group":"A",
       "team1":"RB Royals",
       "team2": "Cricforce",
-      "color":"#a8dcd5" 
+      "color":"#b3c2d2" 
     },
     {
       "gameCount":2,
@@ -21,7 +21,7 @@
       "group":"A",
       "team1":"Gillies",
       "team2": "Kala",
-      "color":"#a8dcd5" 
+      "color":"#b3c2d2" 
     },
     {
       "gameCount":3,
@@ -33,7 +33,7 @@
       "group":"A",
       "team1":"Thunders",
       "team2": "The Phoenix",
-      "color":"#a8dcd5"
+      "color":"#b3c2d2"
     },
     {
       "gameCount":4,
@@ -45,7 +45,7 @@
       "group":"A",
       "team1":"CricSpyders",
       "team2": "Team One",
-      "color":"#a8dcd5"
+      "color":"#b3c2d2"
     },
     {
       "gameCount":5,
@@ -57,7 +57,7 @@
       "group":"A",
       "team1":"Avengers",
       "team2": "CricStarts",
-      "color":"#a8dcd5"
+      "color":"#b3c2d2"
     },
     {
       "gameCount":6,
@@ -69,7 +69,7 @@
       "group":"A",
       "team1":"FCC",
       "team2": "Thunders",
-      "color":"#a8dcd5"
+      "color":"#b3c2d2"
     },
     {
       "gameCount":7,
@@ -81,7 +81,7 @@
       "group":"A",
       "team1":"Cricforce",
       "team2": "Kala",
-      "color":"#a8dcd5"
+      "color":"#b3c2d2"
     },
     {
       "gameCount":8,
@@ -93,7 +93,7 @@
       "group":"A",
       "team1":"FCC",
       "team2": "Avengers",
-      "color":"#a8dcd5"
+      "color":"#b3c2d2"
     },
     {
       "gameCount":9,
@@ -105,6 +105,6 @@
       "group":"A",
       "team1":"RB Royals",
       "team2": "Sandstrom",
-      "color":"#a8dcd5"
+      "color":"#b3c2d2"
     }
   ]
