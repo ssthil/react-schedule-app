@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
-import RulesInfo from './rulesInfo'
+import RulesInfo from './rulesInfo';
+
+const customWidth = {
+    width:'90%',
+    maxWidth:'none'
+}
 
 class RulesDialog extends Component{
 
@@ -35,6 +40,7 @@ class RulesDialog extends Component{
                     model={false} 
                     actions={actions}
                     open={this.state.open}
+                    contentStyle={customWidth}
                     onRequestClose={this.handleClose}
                     autoScrollBodyContent={true}>
                     <RulesInfo />
