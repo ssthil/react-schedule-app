@@ -5,6 +5,7 @@ import UmpireDutyInfo from './data/umpireDutyData.json';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TabSection from './components/tabs';
+import RulesDialog from './components/rulesDialog';
 
 class App extends Component {
 
@@ -33,7 +34,9 @@ class App extends Component {
           <MuiThemeProvider>
               <TabSection info={this.state.matches} umpireDutyInfo = {this.state.umpireDuty}/>
           </MuiThemeProvider>
-          
+          <MuiThemeProvider>
+              <RulesDialog />
+          </MuiThemeProvider>
         </div>
       </div>
     );
