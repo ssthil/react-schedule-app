@@ -18,7 +18,7 @@ const styles = {
                     this.props.info.map((match, i) => 
                         <div className="col-lg-6 col-sm-12 col-sm-12" key={i}>
                             <div className="list-group">
-                                <a href="" className='list-group-item list-group-item-action' style={{borderTopColor: match.color}} >
+                                <a href="" className='list-group-item list-group-item-action' style={{borderTopColor: (match.result === 'won') ? match.wonColor : match.color}} >
                                     <div className="justify-content-between">
                                         <LeftSection timeInfo = {match}/>
                                         <RightSection teamInfo= {match}/>

@@ -72,3 +72,8 @@ body {
 .container > div ~ div {
   background-color: #3b487b;
 }
+.won-text{
+  color: rgb(6, 184, 59);
+  font-weight: bold;
+  text-transform: uppercase;
+}

@@ -8,7 +8,9 @@
       "umpire":"RB Royals & Sandstrom",
       "group":"B",
       "opponent": "Agni",
-      "color":"#b3c2d2"
+      "color":"#b3c2d2",
+      "result":"won",
+      "wonColor":"#6bec0c"
     },
     {
       "gameCount":2,
@@ -19,7 +21,9 @@
       "umpire":"FCC",
       "group": "B",
       "opponent": "Stallions",
-      "color":"#dcbae4"
+      "color":"#dcbae4",
+      "result":"none",
+      "wonColor":"#6bec0c"
     },
     {
       "gameCount":3,
@@ -30,7 +34,9 @@
       "umpire":"Thunders",
       "group":"B",
       "opponent": "Sloggers",
-      "color":"#a8dcd5"
+      "color":"#a8dcd5",
+      "result":"none",
+      "wonColor":"#6bec0c"
     },
     {
       "gameCount":4,
@@ -41,7 +47,9 @@
       "umpire":"Kala",
       "group":"B",
       "opponent": "Powerhitters",
-      "color":"#c4da98" 
+      "color":"#c4da98",
+      "result":"none" ,
+      "wonColor":"#6bec0c"
     },
     {
       "gameCount":5,
@@ -52,7 +60,9 @@
       "umpire":"CricSpyders",
       "group":"B",
       "opponent": "Jaguars",
-      "color":"#" 
+      "color":"#",
+      "result":"none",
+      "wonColor":"#6bec0c"
     },
     {
       "gameCount":6,
@@ -63,7 +73,9 @@
       "umpire":"Cricforce",
       "group":"B",
       "opponent": "Golden Eagles",
-      "color":"#f9a3ac"
+      "color":"#f9a3ac",
+      "result":"none",
+      "wonColor":"#6bec0c"
     },
     {
       "gameCount":7,
@@ -74,7 +86,9 @@
       "umpire":"Avengers & RB Royals",
       "group":"B",
       "opponent": "Rising Stars",
-      "color":"#bad3e4" 
+      "color":"#bad3e4",
+      "result":"none",
+      "wonColor":"#6bec0c"
     },
     {
       "gameCount":8,
@@ -85,7 +99,9 @@
       "umpire":"Avengers & FCC ",
       "group":"B",
       "opponent": "Kerry packers",
-      "color":"#ff751880" 
+      "color":"#ff751880",
+      "result":"none",
+      "wonColor":"#6bec0c"
     },
     {
       "gameCount":9,
@@ -96,7 +112,9 @@
       "umpire":"RB Royals",
       "group":"B",
       "opponent": "City Champs",
-      "color":"#c4da98" 
+      "color":"#c4da98",
+      "result":"none",
+      "wonColor":"#6bec0c"
     },
     {
       "gameCount":10,
@@ -107,7 +125,9 @@
       "umpire":"Team one",
       "group":"B",
       "opponent": "Passengers",
-      "color":"#ccbae4" 
+      "color":"#ccbae4",
+      "result":"none" ,
+      "wonColor":"#6bec0c"
     },
     {
       "gameCount":11,
@@ -118,7 +138,9 @@
       "umpire":"Gillies",
       "group":"B",
       "opponent": "Lightning hawks",
-      "color":"#f9a3ac" 
+      "color":"#f9a3ac" ,
+      "result":"none",
+      "wonColor":"#6bec0c"
     },
     {
       "gameCount":12,
@@ -129,7 +151,9 @@
       "umpire":"Sandstrom",
       "group":"B",
       "opponent": "Cool Kings",
-      "color":"#b3c2d2" 
+      "color":"#b3c2d2",
+      "result":"none" ,
+      "wonColor":"#6bec0c"
     },
     {
       "gameCount":13,
@@ -140,6 +164,8 @@
       "umpire":"Kala",
       "group":"B",
       "opponent": "Indeco",
-      "color":"#a8dcd5" 
+      "color":"#a8dcd5",
+      "result":"none",
+      "wonColor":"#6bec0c"
     }
   ]

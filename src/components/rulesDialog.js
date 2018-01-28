@@ -11,7 +11,7 @@ const customWidth = {
 class RulesDialog extends Component{
 
     state = {
-        open: true
+        open: false
     }
 
     handleOpen = () => {
