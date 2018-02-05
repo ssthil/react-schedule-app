@@ -22,8 +22,8 @@
       "group": "B",
       "opponent": "Stallions",
       "color":"#dcbae4",
-      "result":"none",
-      "wonColor":"#6bec0c"
+      "result":"won",
+      "wonColor":"#6bec0c" 
     },
     {
       "gameCount":3,
@@ -36,7 +36,8 @@
       "opponent": "Sloggers",
       "color":"#a8dcd5",
       "result":"none",
-      "wonColor":"#6bec0c"
+      "wonColor":"#6bec0c",
+      "inprogress": "no"
     },
     {
       "gameCount":4,
