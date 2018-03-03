@@ -62,7 +62,7 @@
       "group":"B",
       "opponent": "Jaguars",
       "color":"#",
-      "result":"none",
+      "result":"won",
       "wonColor":"#6bec0c"
     },
     {
@@ -94,19 +94,6 @@
     {
       "gameCount":8,
       "day": "Saturday",
-      "date": "24-03-2018",
-      "time": "12:00",
-      "pitch":1,
-      "umpire":"Avengers & FCC ",
-      "group":"B",
-      "opponent": "Kerry packers",
-      "color":"#ff751880",
-      "result":"none",
-      "wonColor":"#6bec0c"
-    },
-    {
-      "gameCount":9,
-      "day": "Saturday",
       "date": "07-04-2018",
       "time": "7:30",
       "pitch":1,
@@ -118,7 +105,7 @@
       "wonColor":"#6bec0c"
     },
     {
-      "gameCount":10,
+      "gameCount":9,
       "day": "Saturday",
       "date": "14-04-2018",
       "time": "4:30",
@@ -131,7 +118,7 @@
       "wonColor":"#6bec0c"
     },
     {
-      "gameCount":11,
+      "gameCount":10,
       "day": "Saturday",
       "date": "21-04-2018",
       "time": "4:30",
@@ -144,7 +131,7 @@
       "wonColor":"#6bec0c"
     },
     {
-      "gameCount":12,
+      "gameCount":11,
       "day": "Saturday",
       "date": "28-04-2018",
       "time": "7:30",
@@ -154,6 +141,19 @@
       "opponent": "Cool Kings",
       "color":"#b3c2d2",
       "result":"none" ,
+      "wonColor":"#6bec0c"
+    },
+    {
+      "gameCount":12,
+      "day": "Saturday",
+      "date": "05-05-2018",
+      "time": "12:00",
+      "pitch":1,
+      "umpire":"Avengers & FCC ",
+      "group":"B",
+      "opponent": "Kerry packers",
+      "color":"#ff751880",
+      "result":"none",
       "wonColor":"#6bec0c"
     },
     {
