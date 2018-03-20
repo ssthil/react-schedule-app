@@ -93,3 +93,8 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
+.tied-text{
+  color: rgb(245, 139, 52);
+  font-weight: bold;
+  text-transform: uppercase;
+}

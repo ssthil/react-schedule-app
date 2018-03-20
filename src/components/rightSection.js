@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 class RightSection extends Component {
     render() {
         const MatchResult = () => {
-             if(this.props.teamInfo.result === 'won'){
+             if(this.props.teamInfo.result !== 'none'){
                  return (
                     <span>
-                        Result: <span className="won-text">{this.props.teamInfo.result}</span>
+                        Result: <span className={ (this.props.teamInfo.result === 'won') ? 'won-text': 'tied-text'}>{this.props.teamInfo.result}</span>
                     </span>
                  )
              } else {
