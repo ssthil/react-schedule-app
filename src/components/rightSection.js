@@ -12,7 +12,7 @@ class RightSection extends Component {
              } else {
                  return (
                     <span className="light-text">
-                        umpire: {this.props.teamInfo.umpire}
+                        umpire: {this.props.teamInfo.umpire} 
                     </span>
                 )
              }
