@@ -1,0 +1,6 @@
+export const apiKey = "AIzaSyBmw2QxudIfdsvfJ4b_fQbkxB-UVscWXh0"
+export const authDomain = "ton-schedule.firebaseapp.com"
+export const databaseURL = "https://ton-schedule.firebaseio.com"
+export const projectId = "ton-schedule"
+export const storageBucket = ""
+export const messagingSenderId = "894268176449"
