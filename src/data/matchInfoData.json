@@ -101,7 +101,7 @@
       "group":"B",
       "opponent": "City Champs",
       "color":"#c4da98",
-      "result":"none",
+      "result":"lose",
       "wonColor":"#6bec0c"
     },
     {
@@ -114,7 +114,7 @@
       "group":"B",
       "opponent": "Passengers",
       "color":"#ccbae4",
-      "result":"none" ,
+      "result":"won" ,
       "wonColor":"#6bec0c"
     },
     {
@@ -127,7 +127,7 @@
       "group":"B",
       "opponent": "Lightning hawks",
       "color":"#f9a3ac" ,
-      "result":"none",
+      "result":"won",
       "wonColor":"#6bec0c"
     },
     {

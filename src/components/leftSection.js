@@ -19,6 +19,14 @@ class LeftSection extends Component {
     )
   }
 
+  loseContent = () => {
+    return (
+      <div className="left-content text-center lose-color">
+        <img src={Images.lose} alt="lose" height="50" />
+      </div>
+    )
+  }
+
   scheduleContent = () => {
     return (
       <div className="left-content text-center">
@@ -35,6 +43,9 @@ class LeftSection extends Component {
           
       case 'tied':
         return this.tiedContent()
+
+      case 'lose':
+        return this.loseContent()
         
       default:
         return this.scheduleContent()

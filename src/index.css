@@ -98,3 +98,8 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
+.lose-text{
+  color: rgb(231, 38, 4);
+  font-weight: bold;
+  text-transform: uppercase;
+}

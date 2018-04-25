@@ -8,8 +8,37 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TabSection from './components/tabs';
 import RulesDialog from './components/rulesDialog';
 
-import fire from './fire';
+//import fire from './fire';
+import * as firebase from 'firebase'
+import * as c from './config/constants'
 
+// Initialize Firebase
+const config = {
+  apiKey: c.apiKey,
+  authDomain: c.authDomain,
+  databaseURL: c.databaseURL,
+  projectId: c.projectId,
+  storageBucket: c.storageBucket,
+  messagingSenderId: c.messagingSenderId
+}
+
+firebase.initializeApp(config)
+
+
+const database = firebase.database()
+//const auth = firebase.auth()
+//const provider = new firebase.auth.FacebookAuthProvider()
+
+var ref = database.ref();
+
+ref.on("value", function(snapshot) {
+
+   var info = snapshot.val()
+   console.log(info);
+
+}, function (error) {
+    console.log("Error: " + error.code);
+});
 
 
 class App extends Component {
@@ -23,12 +52,17 @@ class App extends Component {
       umpireDuty:[],
       items: []
     }
+
+    //let app = this.props.db.database().ref('messages');
+    /*app.on('value', snapshot => {
+      this.getData(snapshot.val());
+    });*/
     
   }
 
-  componentWillUnMount(){
-    fire.removeBinding(this.itemsRef);
-  }
+  // componentWillUnMount(){
+  //   firebase.removeBinding(this.itemsRef);
+  // }
 
   componentDidMount() {
     this.setState({
@@ -39,7 +73,7 @@ class App extends Component {
   }
   
   render() {
-    
+    console.log(this.props.data)
     return (
       <div className="App">
         <Header title={this.state.title} description={this.state.description}/>
