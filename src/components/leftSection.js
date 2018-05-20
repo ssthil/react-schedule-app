@@ -3,61 +3,47 @@ import Images from '../images/images'
 
 class LeftSection extends Component {
 
-  won=()=>{
+  won = () => {
     return Images.won
   }
 
-  lose=()=>{
+  lose = () => {
     return Images.lose
   }
 
-  tied=()=>{
+  tied = () => {
     return Images.tied
   }
 
   resultContent = (result) => {
-    switch(result){
+    let actualContent;
+    switch (result) {
       case 'won':
-        return(
-          <div className={`left-content text-center`}>
-            <img src={this.won()} alt="won" height="50" />
-          </div>
-        )
+
+        return actualContent = <img src={this.won()} alt="won" height="50" />
+
       case 'lose':
-        return(
-          <div className={`left-content text-center`}>
-            <img src={this.lose()} alt="lose" height="50" />
-          </div>
-        )
+
+        return actualContent = <img src={this.lose()} alt="lose" height="50" />
+
       case 'tied':
-        return(
-          <div className={`left-content text-center`}>
-            <img src={this.tied()} alt="tied" height="50" />
-          </div>
-        )
+        return actualContent = <img src={this.tied()} alt="tied" height="50" />
+
       default:
-        break
-
-    }
-  }
-
-  scheduleContent = () => {
-    return (
-      <div className="left-content text-center">
-        <h6>{this.props.timeInfo.gameCount}</h6>
-        <h5 className="text-bold">{this.props.timeInfo.time}</h5>
-      </div>
-    )
+        return actualContent = <h5 className="text-bold">{this.props.timeInfo.time}</h5>
+    } 
+    // eslint-disable-next-line
+    return actualContent;
   }
 
   render() {
     const ifMatchWon = this.props.timeInfo.result;
     return (
-      <div>
-        {
-          this.resultContent(ifMatchWon)
-        }
+
+      <div className="left-content text-center">
+        {this.resultContent(ifMatchWon)}
       </div>
+
     )
   }
 }
