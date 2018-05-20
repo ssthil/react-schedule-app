@@ -48,7 +48,6 @@ class App extends Component {
     this.state = {
       title : 'TON',
       description:"Here you go, check out the complete match schedules - Jan 2018",
-<<<<<<< HEAD
       matches : [],
       umpireDuty:[],
       items: []
@@ -59,10 +58,6 @@ class App extends Component {
       this.getData(snapshot.val());
     });*/
     
-=======
-      matches : []
-      }
->>>>>>> 565a223... V3
   }
 
   // componentWillUnMount(){
