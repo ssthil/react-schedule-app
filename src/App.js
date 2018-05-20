@@ -9,11 +9,11 @@ import TabSection from './components/tabs';
 import RulesDialog from './components/rulesDialog';
 
 //import fire from './fire';
-import * as firebase from 'firebase'
-import * as c from './config/constants'
+//import * as firebase from 'firebase'
+//import * as c from './config/constants'
 
 // Initialize Firebase
-const config = {
+/*const config = {
   apiKey: c.apiKey,
   authDomain: c.authDomain,
   databaseURL: c.databaseURL,
@@ -25,20 +25,20 @@ const config = {
 firebase.initializeApp(config)
 
 
-const database = firebase.database()
+const database = firebase.database()*/
 //const auth = firebase.auth()
 //const provider = new firebase.auth.FacebookAuthProvider()
 
-var ref = database.ref();
+//var ref = database.ref();
 
-ref.on("value", function(snapshot) {
+/*ref.on("value", function(snapshot) {
 
    var info = snapshot.val()
    console.log(info);
 
 }, function (error) {
     console.log("Error: " + error.code);
-});
+});*/
 
 
 class App extends Component {
