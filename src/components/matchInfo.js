@@ -10,18 +10,18 @@ const styles = {
 
  class MatchInfo extends Component{
 
-  getClassName = (result) => {
-    switch(result) {
-      case 'won':
-        return 'won-color'
-      case 'lose':
-        return 'lose-color'
-      case 'tied':
-        return 'tied-color'
-      default:
-        break
+    getClassName = (result) => {
+      switch(result) {
+        case 'won':
+          return 'won-color'
+        case 'lose':
+          return 'lose-color'
+        case 'tied':
+          return 'tied-color'
+        default:
+          break
+      }
     }
-  }
      
     render() {
         return(
