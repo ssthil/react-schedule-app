@@ -3,28 +3,42 @@ import Images from '../images/images'
 
 class LeftSection extends Component {
 
-  wonContent = () => {
-    return (
-      <div className="left-content text-center won-color">
-        <img src={Images.won} alt="won" height="50" />
-      </div>
-    )
+  won=()=>{
+    return Images.won
   }
 
-  tiedContent = () => {
-    return (
-      <div className="left-content text-center tied-color">
-        <img src={Images.tied} alt="tied" height="50" />
-      </div>
-    )
+  lose=()=>{
+    return Images.lose
   }
 
-  loseContent = () => {
-    return (
-      <div className="left-content text-center lose-color">
-        <img src={Images.lose} alt="lose" height="50" />
-      </div>
-    )
+  tied=()=>{
+    return Images.tied
+  }
+
+  resultContent = (result) => {
+    switch(result){
+      case 'won':
+        return(
+          <div className={`left-content text-center`}>
+            <img src={this.won()} alt="won" height="50" />
+          </div>
+        )
+      case 'lose':
+        return(
+          <div className={`left-content text-center`}>
+            <img src={this.lose()} alt="lose" height="50" />
+          </div>
+        )
+      case 'tied':
+        return(
+          <div className={`left-content text-center`}>
+            <img src={this.tied()} alt="tied" height="50" />
+          </div>
+        )
+      default:
+        break
+
+    }
   }
 
   scheduleContent = () => {
@@ -36,27 +50,12 @@ class LeftSection extends Component {
     )
   }
 
-  renderFunction(result) {
-    switch (result) {
-      case 'won':
-        return this.wonContent()
-          
-      case 'tied':
-        return this.tiedContent()
-
-      case 'lose':
-        return this.loseContent()
-        
-      default:
-        return this.scheduleContent()
-    }
-  }
   render() {
     const ifMatchWon = this.props.timeInfo.result;
     return (
       <div>
         {
-          this.renderFunction(ifMatchWon)
+          this.resultContent(ifMatchWon)
         }
       </div>
     )

@@ -9,6 +9,19 @@ const styles = {
 }
 
  class MatchInfo extends Component{
+
+  getClassName = (result) => {
+    switch(result) {
+      case 'won':
+        return 'won-color'
+      case 'lose':
+        return 'lose-color'
+      case 'tied':
+        return 'tied-color'
+      default:
+        break
+    }
+  }
      
     render() {
         return(
@@ -18,7 +31,7 @@ const styles = {
                     this.props.info.map((match, i) => 
                         <div className="col-lg-6 col-sm-12 col-sm-12" key={i}>
                             <div className="list-group">
-                                <a href="" className={"list-group-item list-group-item-action" + ( match.inprogress ==='yes' ? ' animated-brd':'')} style={{borderTopColor: (match.result === 'won' || match.result === 'lose') ? match.resultColor : match.color}} >
+                                <a href="" className={`list-group-item list-group-item-action ${this.getClassName(match.result)}`} >
                                     <div className="justify-content-between ">
                                         <LeftSection timeInfo = {match}/>
                                         <RightSection teamInfo= {match}/>

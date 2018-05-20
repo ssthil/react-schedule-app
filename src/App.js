@@ -8,6 +8,8 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TabSection from './components/tabs';
 import RulesDialog from './components/rulesDialog';
 
+import Images from './images/images'
+
 //import fire from './fire';
 //import * as firebase from 'firebase'
 //import * as c from './config/constants'
@@ -48,6 +50,7 @@ class App extends Component {
     this.state = {
       title : 'TON',
       description:"Here you go, check out the complete match schedules - Jan 2018",
+      icon: Images,
       matches : [],
       umpireDuty:[],
       items: []
@@ -73,13 +76,12 @@ class App extends Component {
   }
   
   render() {
-    console.log(this.props.data)
     return (
       <div className="App">
         <Header title={this.state.title} description={this.state.description}/>
         <div className="container">
           <MuiThemeProvider>
-              <TabSection info={this.state.matches} umpireDutyInfo = {this.state.umpireDuty} jerseyInfo={this.state.jerseyInfo}/>
+              <TabSection icon={this.state.Images} info={this.state.matches} umpireDutyInfo = {this.state.umpireDuty} jerseyInfo={this.state.jerseyInfo}/>
           </MuiThemeProvider>
           <MuiThemeProvider>
               <RulesDialog />

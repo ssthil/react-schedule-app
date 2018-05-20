@@ -89,7 +89,7 @@ body {
   background-color: #3b487b;
 }
 .won-text{
-  color: rgb(6, 184, 59);
+  color: #06b83b;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -102,4 +102,16 @@ body {
   color: #bd1e02;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.won-color{
+  border-top-color: #8bb864;
+}
+
+.lose-color{
+  border-top-color: #ca1028;
+}
+
+.tied-color{
+  border-top-color: #25a4e9;
 }

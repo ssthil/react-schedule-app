@@ -54,7 +54,7 @@ class TabSection extends Component {
                 <Tab label="Rules" style={styles.rulesTab} value={2} />
             </Tabs>
             <SwipeableViews index={this.state.slideIndex} onChangeIndex={this.handleChange}>
-                <MatchInfo info={this.props.info}/>
+                <MatchInfo info={this.props.info} icon={this.props.icon}/>
                 <UmpireDuty umpireDutyInfo={this.props.umpireDutyInfo}/>
                 <RulesInfo /> 
             </SwipeableViews>
