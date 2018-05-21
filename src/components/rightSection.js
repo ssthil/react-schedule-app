@@ -2,17 +2,22 @@ import React, { Component } from 'react';
 
 class RightSection extends Component {
 
-  resultColor() {
-    switch (this.props.teamInfo.result) {
+  resultColor = (result) => {
+    let actualClass;
+    switch (result) {
       case 'won':
-        return <span className={'won-text'}><span>{this.props.teamInfo.result}</span></span>
+        actualClass = 'won-text'
+        break;
       case 'lose':
-        return <span className={'lose-text'}><span>{this.props.teamInfo.result}</span></span>
+        actualClass = 'lose-text'
+        break;
       case 'tied':
-        return <span className={'tied-text'}><span>{this.props.teamInfo.result}</span></span>
+        actualClass = 'tied-text'
+        break;
       default:
         break
     }
+    return <span className={actualClass}><span>{this.props.teamInfo.result}</span></span>
   }
 
   render() {
@@ -20,7 +25,7 @@ class RightSection extends Component {
       if (this.props.teamInfo.result !== 'none') {
         return (
           <span>
-            Result: {this.resultColor()} 
+            Result: {this.resultColor(this.props.teamInfo.result)} 
           </span>
         )
       } else {
