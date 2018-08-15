@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import Images from '../images/images'
 
 class LeftSection extends Component {
@@ -14,7 +14,7 @@ class LeftSection extends Component {
         return actualContent = <img src={Images.tied} alt="tied" height="50" />
       default:
         return actualContent = <h5 className="text-bold">{this.props.timeInfo.time}</h5>
-    } 
+    }
     // eslint-disable-next-line
     return actualContent;
   }

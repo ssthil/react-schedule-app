@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/header';
-import MatchInfo from './data/matchInfoData.json';
+import MatchInfo from './data/matchInfoDataJuly2018.json';
 import UmpireDutyInfo from './data/umpireDutyData.json';
 
 
@@ -48,11 +48,11 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      title : 'TON',
-      description:"Here you go, check out the complete match schedules - Jan 2018",
+      title: 'TON',
+      description: "Here you go, check out the complete match schedules - Jan 2018",
       icon: Images,
-      matches : [],
-      umpireDuty:[],
+      matches: [],
+      umpireDuty: [],
       items: []
     }
 
@@ -60,7 +60,7 @@ class App extends Component {
     /*app.on('value', snapshot => {
       this.getData(snapshot.val());
     });*/
-    
+
   }
 
   // componentWillUnMount(){
@@ -74,17 +74,17 @@ class App extends Component {
     });
 
   }
-  
+
   render() {
     return (
       <div className="App">
-        <Header title={this.state.title} description={this.state.description}/>
+        <Header title={this.state.title} description={this.state.description} />
         <div className="container">
           <MuiThemeProvider>
-              <TabSection icon={this.state.Images} info={this.state.matches} umpireDutyInfo = {this.state.umpireDuty} jerseyInfo={this.state.jerseyInfo}/>
+            <TabSection icon={this.state.Images} info={this.state.matches} umpireDutyInfo={this.state.umpireDuty} jerseyInfo={this.state.jerseyInfo} />
           </MuiThemeProvider>
           <MuiThemeProvider>
-              <RulesDialog />
+            <RulesDialog />
           </MuiThemeProvider>
         </div>
       </div>
