@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/header';
-import MatchInfo from './data/matchInfoDataJuly2018.json';
+import MatchInfo from './data/matchInfoData.json';
 import UmpireDutyInfo from './data/umpireDutyData.json';
 
 
