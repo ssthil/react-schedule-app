@@ -23,7 +23,7 @@
       "opponent": "Stallions",
       "color":"#dcbae4",
       "result":"won",
-      "resultColor":"#6bec0c" 
+      "resultColor":"#6bec0c"
     },
     {
       "gameCount":3,
@@ -134,7 +134,7 @@
       "gameCount":11,
       "day": "Saturday",
       "date": "28-04-2018",
-      "time": "7:30",
+      "time": "8:00",
       "pitch":1,
       "umpire":"Sandstrom",
       "group":"B",
